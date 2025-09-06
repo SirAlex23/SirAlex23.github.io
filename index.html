@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NintenWeb</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" class="header__checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="logo.png">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#profile">About us</a></li>
+                <li class="header__nav-item"><a href="#portfolio">News</a></li>
+                <li class="header__nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile" id="profile">
+        <div class="profile__wrapper">
+            <div  class="profile__img-container"> 
+                <img src="proyecto.png" class="profile__img">
+            </div>
+            <div class="profile__data-container">
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <h1>¿Cuál es el futuro de Nintendo?</h1>
+                        <p>
+                            Con la reciente salida de Switch 2  y su posterior 
+                            éxito en ventas, es hora de conocer cuáles seran los 
+                            próximos lanzamientos que vendrán tanto en un futuro 
+                            cercano como en 2026. Con esta nueva saga buscamos 
+                            continuar y expandir aun más el legado que nos dejó
+                            Switch 1. Únete a nosotros en este maravilloso viaje
+                            que nos espera!!!
+                        </p>
+                    </div>
+                    <div class="profile__skills-container">
+                        <h2>PRÓXIMOS LANZAMIENTOS!!</h2>
+                        <ul>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">80%
+                                    </div>
+                                </div>
+                                <span class="profile__skill__name">POKEMON ZA</span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--60">60%
+                                    </div>
+                                </div>
+                                <span class="profile__skill__name">HYRULE WARRIORS</span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--70">70%
+                                    </div>
+                                </div>
+                                <span class="profile__skill__name">SILKSONG</span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--70">70%
+                                    </div> 
+                                </div>
+                                <span class="profile__skill__name">METROID PRIME 4</span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--90">90%
+                                    </div>
+                                </div>
+                                <span class="profile__skill__name">YAKUZA 2</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">PROYECTOS FUTUROS</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project1">
+                <h2 class="portfolio__project-name">PERSONA 6</h2>
+            </div>
+            <div class="portfolio__project2">
+                <h2 class="portfolio__project-name">STARSEEKER</h2>
+            </div>
+            <div class="portfolio__project3">
+                <h2 class="portfolio__project-name">KIRBY</h2>
+            </div>
+            <div class="portfolio__project4">
+                <h2 class="portfolio__project-name">THE WITCHER 4</h2>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="contact">
+        <h2 class="form__title">CONTACT US</h2>
+        <form class="form__form">
+            <div class="form__input-container">
+                <label>Nombre
+                    <input type="text" placeholder="Mario">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>Apellidos
+                    <input type="text" placeholder="Ketchum Kong">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>E-mail
+                    <input type="email" name="email" placeholder="link@example.com" required>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>Mensaje
+                    <textarea placeholder="Tu mensaje..." required></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+    <strong>NINTENDO</strong> - Copyright
+    </footer>
+</body>
+</html>
